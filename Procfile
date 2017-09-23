@@ -1,2 +1,3 @@
-web: gunicorn gettingstarted.wsgi --log-file -
+web: uwsgi uwsgi.ini
+
 
